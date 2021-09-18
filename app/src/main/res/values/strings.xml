@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clase1DM</string>
+    <string name="saludo">Hola clase!!</string>
+    <string name="peso">cual es tu Peso</string>
+    <string name="altura">cual es tu altura</string>
+    <string name="imc"> Calculadora IMC</string>
+    <string name="calculadora"> Calculadora </string>
+    <string name="conversor"> Conversor</string>
+
+</resources>
