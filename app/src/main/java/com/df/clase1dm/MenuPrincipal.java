@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import org.aviran.cookiebar2.CookieBar;
+
+
 public class MenuPrincipal extends AppCompatActivity implements View.OnClickListener {
 
     private Button btnCalculadoraIMC;
@@ -27,6 +30,13 @@ public class MenuPrincipal extends AppCompatActivity implements View.OnClickList
         btnCalculadoraGeneral.setOnClickListener(this);
         btnConversorUnidades.setOnClickListener(this);
         btnCalculadoraIMC.setOnClickListener(this);
+        CookieBar.build(this)
+                .setTitle("Bienvenida")
+                .setMessage("Este es un ejemplo de Mensaje ")
+                .setBackgroundColor(R.color.blue)
+                .setDuration(5000)
+                .setCookiePosition(CookieBar.BOTTOM)  // Cookie will be displayed at the bottom
+                .show();
     }
 
     @Override
